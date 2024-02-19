@@ -1,8 +1,8 @@
 """
 input() statement is used to accept values (using keyboard) from user
 
-input() # result for input() is always a str
-int(intput()) #int
+input() # result for input() is always a string
+int(input()) #int
 float(input()) #float
 
 """

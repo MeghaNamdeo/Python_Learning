@@ -6,6 +6,12 @@ An Operator is a symbol that performs a certain operation between  operands.
 2.Relational / Comparison Operators(==, !=, >, < ,>=,<=)
 3.Assignment Operators(=, += , -=, *= , /=, %= , **=)
 4.logical operators (not , and , or )
+5.Membership Operator (in , not in)
+6.Identity Operator (is , is not )
+7.Bitwise Operator (&, | , ^)
+
+Operator precedence 
+not > and > or 
 """
 
 a = 10
