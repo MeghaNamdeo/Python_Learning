@@ -32,7 +32,7 @@ else:
 
 ''' Single Line if / ternary operator 
 <var> = <val1> if<condition> else <val2>
-'''
+
 food = input("food : ")
 eat = " yes "if food == "cake" else "no"
 print(eat)
@@ -42,5 +42,15 @@ print(eat)
 food = input(" food : ")
 print("sweet")if food == "cake" or food=="jalebi"else print("not sweet")
 
+'''
+# clever if / Ternary Operator
+#<var> = (false_val, true_val)[<condition>]
+age = int(input("age: "))
+vote = ("no", "yes")[age < 18]
 
-        
+salary = float(input("salary: "))
+tax_rates = {True: 0.1, False: 0.2}
+tax = salary * tax_rates[salary <= 50000]
+
+print("Vote:", vote)
+print("Tax:", tax)
