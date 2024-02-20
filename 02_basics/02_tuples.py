@@ -83,3 +83,23 @@ if(copy_l2==list1):
     print("Yes ",list2 ,"is palindrome ")
 else:
     print("No , ",list2," is not a palindrome ")
+
+
+#practice question 
+''' WAP to count the number of students with the "A" grade in the following tuple'''
+tup8 = ("C","D","A","A","B","B","A")
+print(tup8.count("A"))
+
+#practice question 
+''' Store the above values in a list & sort them from "A"to"D"'''
+tup9 = ("C", "D", "A", "A", "B", "B", "A")
+
+# Convert the tuple to a list
+lst9 = list(tup9)
+
+# Sort the list
+lst9.sort()
+
+# Print the sorted list
+print(lst9)
+
