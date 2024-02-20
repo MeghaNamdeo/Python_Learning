@@ -55,3 +55,12 @@ print(set1.union(set2))
 print(set1.intersection(set2))
 
 #unhashable means jiski value change ho jay jese lists, set 
+
+#practice question 
+'''
+You are given a list of subjects for students. Assume one classroom is required
+for subject. How many classrooms are needed by all students 
+'''
+classroom={"python","cpp","python","js","C","java","python","java"}
+print(classroom)
+print(len(classroom))
