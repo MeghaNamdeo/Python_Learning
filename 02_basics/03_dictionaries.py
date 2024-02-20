@@ -63,7 +63,9 @@ print(len(list(student.keys())))#return length
 print(student.values())#return all values
 
 print(student.items())#return all(key,val) apirs as tuples 
-
+'''print(student["name"]) or print(student.get("name")) both are same but why we need getfuction 
+because when want the value of print(student["name2"]), it give error because it doesnot exist 
+but when print(student.get("name2")), this give output none it donot throw error '''
 print(student.get("name"))#return the key according to value
 
 #print(student.update(newDict))#inserts the specified items to the dictionaries
