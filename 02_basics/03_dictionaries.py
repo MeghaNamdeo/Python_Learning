@@ -51,3 +51,25 @@ student={
     }
 }
 print(student)
+
+
+print(student["subjects"]["math"])
+
+#dictionaries Method
+
+print(student.keys())#return all keys
+print(list(student.keys()))#for typecast in the form of list
+print(len(list(student.keys())))#return length
+print(student.values())#return all values
+
+print(student.items())#return all(key,val) apirs as tuples 
+
+print(student.get("name"))#return the key according to value
+
+#print(student.update(newDict))#inserts the specified items to the dictionaries
+
+
+
+
+
+
