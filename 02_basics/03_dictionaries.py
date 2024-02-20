@@ -101,6 +101,25 @@ marks.update({"che":z})
 
 print(marks)
 
+#practice question
+'''
+Figure out a way to store 9 and 9.0 as separate values int the set 
+(You can take help of built in data type )
+'''
+values = { 9, 9.0}
+print(values) #output : {9}
+
+values = { 9,"9.0" } #in this way we print both 
+print(values) #output : {9,9.0}
+
+values= {
+    ('float',9.0),
+    ('int',9)
+}
+print(values)
+
+
+
 
 
 
