@@ -75,6 +75,32 @@ new_Dic={'age':'20','Degree':'Btech'}
 student.update(new_Dic)
 print(student)
 
+#practice question
+'''
+WAP to enter marks of 3 subjects from the user and store them in a dictionary . Start with an empty dictionary and add one by one . Use subject name as key and marks as value
+'''
+Subjectss={}
+print(Subjectss)
+Subjectss.update({"1": "Maths"})#inserts the specified items to the dictionaries
+print(Subjectss)
+Subjectss.update({"2": "Physics"})
+print(Subjectss)
+Subjectss.update({"3": "Chemistry"})
+print(Subjectss)
+
+marks={}
+
+x = int(input("Enter physics marks "))
+marks.update({"phy":x})
+
+y = int(input("Enter maths marks "))
+marks.update({"math":y})
+
+z = int(input("Enter chemistry marks "))
+marks.update({"che":z})
+
+print(marks)
+
 
 
 
