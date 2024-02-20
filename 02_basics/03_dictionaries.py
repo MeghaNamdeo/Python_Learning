@@ -68,7 +68,12 @@ because when want the value of print(student["name2"]), it give error because it
 but when print(student.get("name2")), this give output none it donot throw error '''
 print(student.get("name"))#return the key according to value
 
-#print(student.update(newDict))#inserts the specified items to the dictionaries
+student.update({"city": "Dindori"})#inserts the specified items to the dictionaries
+print(student)
+# or another way to store multiple key value pair
+new_Dic={'age':'20','Degree':'Btech'}
+student.update(new_Dic)
+print(student)
 
 
 
