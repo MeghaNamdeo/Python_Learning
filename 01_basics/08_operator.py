@@ -14,6 +14,18 @@ Operator precedence
 not > and > or 
 """
 
+'''
+Operator precedence : 
+Firstly, parantheses will be evaluated, then exponentiation and so on.
+
+P – Parentheses
+E – Exponentiation
+M – Multiplication
+D – Division
+A – Addition
+S – Subtraction
+'''
+
 a = 10
 b = 5
 

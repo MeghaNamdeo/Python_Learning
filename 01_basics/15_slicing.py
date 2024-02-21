@@ -1,4 +1,4 @@
-''' Slicing is accesing part of a string
+''' Slicing is used to accesing part of a string
 
 str[starting_idx : ending_idx] ending idx is not included
 

@@ -1,9 +1,19 @@
-'''Functions in python 
-Block of statement that perform a specific task]
+'''Functions in python : A function is a block of instructions which only execute 
+when it is called.
+
+Declaration : A function declaration tells the compiler about a function name, 
+return type, and parameters.
+
+Definition: A function definition provides the actual body of the function.
+
+Function call : To call a function, write the function’s name 
+followed by two parenthesis() and a semicolon;
+
+in short,Block of statement that perform a specific task
 
 def func_name(param1,param2):
     #some work
-    return va
+    return val
 func_name(agr1,arg2..)#function call
 '''
 

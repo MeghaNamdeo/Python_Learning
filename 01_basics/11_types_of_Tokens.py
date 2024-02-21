@@ -4,12 +4,12 @@
 -=,+=,/=,*=,//=,= etc 
 
 python is implict typed language 
-impilcit means alag se typr batne ki jarurrat nahi hoti  like python 
+impilcit means alag se type batne ki jarurrat nahi hoti  like python 
 explicit me humko type batnna parta hai ki konsa type ka data type hai like cpp, java  
 
-Exresion Execution 
+Expresion Execution 
 
-Srtring & Numeric values can operate together with *   //repeat
+String & Numeric values can operate together with *   //repeat
 
 A, B = 2, 3 
 Txt = "@"
@@ -40,7 +40,7 @@ print (C)  output 0.5
 Integer division with float and int will give int displayed as float
 A, B = 1.5 , 3
 C = A//B 
-print(C, A/b) output 0.0 0.5
+print(C, A/B) output 0.0 0.5
 
 
 floor gives closest integer , which is lesser than or equal to the float value 

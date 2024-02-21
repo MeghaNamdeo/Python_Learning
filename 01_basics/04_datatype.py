@@ -16,8 +16,8 @@ built in datatype :
 2. String
 3. Float
 4. Boolean
-5.None
+5. None
 
 
-string ko ' ', " " , '''  '''  replresent kr sakte hai 
+string ko ' ', " " , '''  '''  represent kr sakte hai 
 '''

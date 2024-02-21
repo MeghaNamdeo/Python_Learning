@@ -1,8 +1,9 @@
 
 '''
+The Python range() function returns a sequence of numbers, in a given range.
 Range functions returns a sequence of numbers, starting from 0
- by default , and increment by 1 (by default), and scope before
-  a specified number .\
+ by default , and increment by 1 (by default), and 
+  stops before a specified number..
 
 range (start?,stop,step?)
 
