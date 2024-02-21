@@ -1,0 +1,45 @@
+'''
+When a function calls itself repeatedly
+
+print n  to 1 backward 
+'''
+def show(n):
+    if(n==0): #base case
+        return
+    print (n)
+    show(n -1 )
+
+    #practice question 
+    ''' Write a recursive function to calculate the sum of first n natural numbers.
+    '''
+def Natural_Num(n):
+    if n <= 0:
+        return
+    else:
+        Natural_Num(n - 1)
+        print(n, end=" ")
+
+Natural_Num(8)
+
+def Natural_Sum(n):
+    if n <= 0:
+        return 0
+    else:
+        current_sum = Natural_Sum(n - 1) + n
+        return current_sum
+
+result = Natural_Sum(8)
+print(result)
+
+
+'''Write a recursive function to print all element in a list.
+Hint : use list and index as parameter'''
+
+def print_list(list,i=0):
+    if i >= len(list):
+        return
+    else:
+        print(list[i])
+        print_list(list,i + 1)
+lis=[90,89,78,67,56,45,34,23,11,110]
+print_list(lis)
