@@ -73,3 +73,6 @@ print(s1.percentage)
 s1._phy = 86
 print(s1.percentage)
 
+
+#getter decorator 
+#setter decorator 
