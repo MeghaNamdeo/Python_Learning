@@ -1,6 +1,9 @@
 '''
 class is a collection of 2 things : 1 data(attributes) 2.methods 
 Methods are functions that belong to objects.
+types : 
+1. Non Static  2.Static 
+
 '''
 class Student:
     def __init__(self, fullname ):
