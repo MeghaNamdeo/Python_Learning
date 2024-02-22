@@ -53,4 +53,23 @@ print(Person.name)#output : Raja
 
 
 
-        
+     #property decorator : we use @property decorator on any method in the class to use the methhod as a property
+
+
+
+class Student:
+    def __init__(self, phy, chem, math):
+        self._phy = phy
+        self._chem = chem
+        self._math = math
+
+    @property
+    def percentage(self):
+        return str((self._phy + self._chem + self._math) / 3) + "%"
+
+s1 = Student(90, 89, 70)
+print(s1.percentage)
+
+s1._phy = 86
+print(s1.percentage)
+
